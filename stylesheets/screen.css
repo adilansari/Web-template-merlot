@@ -153,6 +153,8 @@ header span.ribbon-inner {
   z-index: 1;
 }
 
+
+
 header span.left-tail, header span.right-tail {
   position: relative;
   display: block;
@@ -262,6 +264,26 @@ section#main_content {
   z-index: 2;
   padding: 20px 82px 0;
   min-height:185px;
+}
+
+section#main_content span.link-wrap {
+	padding-left: 95px;
+}
+
+section#main_content span.project {
+	position: relative;
+  	font-family: 'Open Sans', Myriad, Calibri, sans-serif;
+  	font-style:strong;
+  	font-weight: 800;
+  	font-size: 1.2em;
+}
+
+section#main_content span.project p {
+	position: block;
+  	font-style: normal;
+  	padding-left: 30px;
+  	font-weight: 100;
+  	font-size:small;
 }
 
 /* footer */
@@ -502,7 +524,6 @@ dd p:first-child {
 }
 
 /* Content based headers */
-
 #main_content > .header-level-1:first-child,
 #main_content > .header-level-2:first-child,
 #main_content > .header-level-3:first-child,
@@ -526,6 +547,7 @@ dd p:first-child {
 .header-level-2 {
   font-size: 1.58em;
   color: #7c334f;
+  background: url(../images/footer-ramp.jpg) center #0086B3
   margin: .95em 0 .5em;
   border-bottom: .1em solid #D3CCC1;
   line-height: 1.2;
